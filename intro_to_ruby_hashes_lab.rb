@@ -22,7 +22,6 @@ def monopoly_with_second_tier
     :names => {},
     :rent_in_dollars => {}
   }
-  puts monopoly[:railroads][:pieces]
 end
 
 def monopoly_with_third_tier
@@ -72,5 +71,3 @@ def monopoly_with_fourth_tier
     }
   }
 end
-
-monopoly_with_second_tier
